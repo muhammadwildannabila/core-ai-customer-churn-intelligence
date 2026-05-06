@@ -194,10 +194,7 @@ high_risk = len(
     result_df[result_df["Risk_Level"] == "🔴 High Risk"]
 )
 
-avg_churn = round(
-    result_df["Churn_Probability"].mean() * 100,
-    2
-)
+avg_churn = f"{result_df['Churn_Probability'].mean() * 100:.2f}"
 
 retention_priority = round(
     (high_risk / total_customer) * 100,
