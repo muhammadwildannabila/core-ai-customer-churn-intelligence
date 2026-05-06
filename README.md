@@ -125,7 +125,7 @@ The AI Prediction System enables interactive customer churn prediction using mac
 
 <div align="center">
 
-<img src="assets/churn-risk-distribution.png" width="70%">
+<img src="assets/.png" width="70%">
 
 </div>
 
